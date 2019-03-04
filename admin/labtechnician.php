@@ -25,6 +25,7 @@
 		<div id = "sidecontent" class = "well pull-right">
 				
 				<button type = "button" id = "add_admin" class = "btn btn-success"><span class = "glyphicon glyphicon-plus"></span> Back</button>
+				<a href = "lab_result.php" class = "btn btn-success"><span class = "glyphicon glyphicon-plus"></span> Add a Result</a>
 				<button style = "display:none;" type = "button" id = "cancel_admin" class = "btn btn-warning"><span class = "glyphicon glyphicon-hand-right"></span> Cancel</button>
 				<br />
 				<br />
