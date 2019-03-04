@@ -5,11 +5,7 @@
 ?>
 <html lang = "eng">
 	<head>
-<<<<<<< HEAD
 		<title>Green Cross Medical Centre</title>
-=======
-		<title>Information System Society Membership</title>
->>>>>>> 2c4d646ac3c10524379c4394902cf8b13b8e021e
 		<meta charset = "UTF-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1" />
 		<link rel = "stylesheet" type = "text/css" href = "../css/bootstrap.css" />
