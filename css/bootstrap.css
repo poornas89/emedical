@@ -3080,7 +3080,7 @@ fieldset[disabled] a.btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
-  background-color:;
+  background-color:#e6e6e6;
   border-color: #adadad;
 }
 .btn-default:active:hover,
@@ -3128,18 +3128,12 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-<<<<<<< HEAD
   background-color: #33b78b;
   border-color: #33b78b;
-=======
-  background-color: #337ab7;
-  border-color: #2e6da4;
->>>>>>> 2c4d646ac3c10524379c4394902cf8b13b8e021e
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-<<<<<<< HEAD
   background-color: #2fa57e;
   border-color: #124029;
 }
@@ -3147,27 +3141,13 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #158b42;
   border-color: #136633;
-=======
-  background-color: #286090;
-  border-color: #122b40;
-}
-.btn-primary:hover {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
->>>>>>> 2c4d646ac3c10524379c4394902cf8b13b8e021e
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-<<<<<<< HEAD
   background-color: #288858;
   border-color: #207440;
-=======
-  background-color: #286090;
-  border-color: #204d74;
->>>>>>> 2c4d646ac3c10524379c4394902cf8b13b8e021e
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3179,13 +3159,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-<<<<<<< HEAD
   background-color: #20744d;
   border-color: #12402b;
-=======
-  background-color: #204d74;
-  border-color: #122b40;
->>>>>>> 2c4d646ac3c10524379c4394902cf8b13b8e021e
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4571,11 +4546,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-<<<<<<< HEAD
   background-color:rgb(88, 185, 148);
-=======
-  background-color:#2E8B57;
->>>>>>> 2c4d646ac3c10524379c4394902cf8b13b8e021e
 }
 .navbar-default .navbar-brand {
   color: #fff;
@@ -5779,19 +5750,11 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ddd;
 }
 .panel-primary {
-<<<<<<< HEAD
   border-color: #33b78b;
 }
 .panel-primary > .panel-heading {
   color: #fff;
   background-color: #33b78b;
-=======
-  border-color: #337ab7;
-}
-.panel-primary > .panel-heading {
-  color: #fff;
-  background-color: #337ab7;
->>>>>>> 2c4d646ac3c10524379c4394902cf8b13b8e021e
   border-color: #337ab7;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
