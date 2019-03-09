@@ -41,19 +41,29 @@
 							<br />
 												
 							<div class = "form-group">
-								<label>Hospital Name</label>
-								<input type = "text" class = "form-control" name = "hospitalname" required = "required"/>
+								<label>Lab Name</label>
+								<input type = "text" class = "form-control" name = "labname" required = "required"/>
+							</div>
+
+							<div class = "form-group">
+								<label>Patient Name</label>
+								<input type = "text" class = "form-control" name = "paitientname" required = "required"/>
 							</div>
 							
 							<div class = "form-group">
-								<label>Title</label>
-								<select name = "title" class = "form-control" required = "required">
+								<label>Doctor Name</label>
+								<input type = "text" class = "form-control" name = "docname" required = "required"/>
+							</div>
+
+							<div class = "form-group">
+								<label>Test Type</label>
+								<select name = "testtype" class = "form-control" required = "required">
 									<option >Select </option>
-									<option value = "Rev">Rev</option>
-									<option value = "Mr">Mr</option>
-									<option value = "Mrs">Mrs</option>
-									<option value = "Master">Master</option>
-									<option value = "Miss">Miss</option>
+									<option value = "FBC">FBC</option>
+									<option value = "ANA">ANA</option>
+									<option value = "BMP">BMP</option>
+									<option value = "HCG">HCG</option>
+									<option value = "ESR">ESR</option>
 								</select>
 							</div>
 							<div class = "form-group">
