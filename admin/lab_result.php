@@ -21,7 +21,7 @@
 <!-------------------SIDEBAR------------------>
 
 		<div id = "sidecontent" class = "well pull-right">
-		<a href = "labtechnician.php" class = "btn btn-warning"><span class = "glyphicon-backward"></span>Back</a>	
+		<a href = "labtechnician.php" class = "btn btn-warning"><span class = "glyphicon glyphicon-hand-left"></span> Back</a>	
 			<div class = "alert alert-info">Add Lab Result</div>
 							
 			<div id = "exp_form"  class = "panel panel-default">
@@ -67,61 +67,34 @@
 								</select>
 							</div>
 							<div class = "form-group">
-								<label>First Name</label>
-								<input type = "text" class = "form-control" name = "firstname" required = "required"/>
+								<label>Additional Test Info</label>
+								<input type = "text" class = "form-control" name = "testinfo"/>
 							</div>
 							
-							<div class = "form-group">
-								<label>Middle Name</label>
-								<input type = "text" class = "form-control" name = "middlename" required = "required"/>
-							</div>
+
+							<div class = "form-inline">
+							<label>Test Status</label><br>
+							<div class="radio">
+      							<input type="radio" name="pendone" checked><label>&nbspPending</label>
+    						</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+							<div class="radio">
+      							<input type="radio" name="pendone" ><label>&nbspComplete</label>
+    						</div> 
+							</div> <br>
 													
 							<div class = "form-group">
-								<label>Last Name</label>
-								<input type = "text" class = "form-control" name = "lastname" required = "required"/>
+								<label>Other Details</label>
+								<textarea class="form-control" rows="5" name="otherd"></textarea>
 							</div>
 							
-							<div class = "form-inline">
-								<label>Date of Birth</label>
-								<br />
-								<input type = "date"   class = "form-control" name = "dateofbirth" required = "required"/>
-							</div>
 							
-							<div class = "form-group">
-								<label>NIC Number</label>
-								<input type = "text" class = "form-control" name = "nicno" required = "required"/>
-							</div>
-							<div class = "form-group">
-							<label>Sex</label>
-								<select name = "sex" class = "form-control" required = "required">
-									<option >Select </option>
-									<option value = "Male">Male</option>
-									<option value = "Female">Female</option>
-								</select>
-							</div>
-							
-							<div class = "alert alert-success">Contact Details</div>
-							<div class = "form-inline">
-								<label>Residence</label>&nbsp &nbsp &nbsp
-								<input type = "text" style = "width:30%;" class = "form-control"  name = "residence" required = "required"/>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<label>Address</label>&nbsp &nbsp &nbsp &nbsp &nbsp
-								<input type = "textarea" class = "form-control" name = "address" required = "required"/>
-							</div>
-							<br>
-							<div class = "form-inline">
-								<label>MobileNo</label>&nbsp &nbsp &nbsp &nbsp 
-								<input type = "text"  style = "width:30%;" class = "form-control"  name = "mobile" required = "required"/>
-								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-								<label>Email Id</label>&nbsp &nbsp &nbsp &nbsp &nbsp 
-								<input type = "mail" class = "form-control" name = "email" required = "required"/>
-							</div>
 							
 							<br>
 							<div class = "form-group">
 								<button style = "width:30%; class = "btn btn-primary form-control" name = "save_user"><span class = "glyphicon glyphicon-save"></span> Save</button>
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<button type="Reset" style = "width:30%; class = "btn btn-primary form-control" name = "reset"><span class = "glyphicon glyphicon-save"></span> Reset</button>
+								<button type="Reset" style = "width:30%; class = "btn btn-primary form-control" name = "reset"><span class = "glyphicon glyphicon-remove"></span> Reset</button>
 							</div>
 						</form>	
 					</div>	

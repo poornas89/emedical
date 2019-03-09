@@ -13,8 +13,8 @@
 		</li>
 		<!--<li><a href = "home.php"><i class = "glyphicon glyphicon-home"></i> Home</a></li>-->
 		<li><a href = "home.php"><i class = "glyphicon glyphicon-home"></i> Home</a></li>
-		<li><a href = "doctor.php"><i class = "glyphicon glyphicon-ruble"></i> Doctor</a></li>
-		<li><a href = "labtechnician.php"><i class = "glyphicon glyphicon-piggy-bank"></i> Lab Technician</a></li>
+		<li><a href = "doctor.php"><i class = "glyphicon glyphicon-user"></i> Doctor</a></li>
+		<li><a href = "labtechnician.php"><i class = "glyphicon glyphicon-scale"></i> Lab Technician</a></li>
 		<li><a href = "pharmacy.php"><i class = "glyphicon glyphicon-ruble"></i> Pharmacy</a></li>
 		<li><a href = ""><i class = "glyphicon glyphicon-user"></i> Accounts</a>
 			<ul>
