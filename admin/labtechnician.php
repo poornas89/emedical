@@ -81,10 +81,10 @@
 								?>
 								<tr>
 									<td><?php echo $a_fetch['patientid']?></td>
-									<td><?php echo md5($a_fetch['labid'])?></td>
+									<td><?php echo ($a_fetch['labid'])?></td>
 									<td><?php echo $a_fetch['name']?></td>
 									<td><?php echo $a_fetch['doctor']?></td>
-									<td><?php echo md5($a_fetch['test'])?></td>
+									<td><?php echo ($a_fetch['test'])?></td>
 									<td><?php echo $a_fetch['status']?></td>
 									<td><?php echo $a_fetch['details']?></td>
 								</tr>
